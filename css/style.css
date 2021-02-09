@@ -1,0 +1,32 @@
+:root {
+    --navbar : #061339;
+    --premierBloc : #B9CDFF;
+    --titreh1 : #FFF;
+    --autrestitres : #2F4073;
+	--footer : #061339;
+    --têtechatdéfaut : #7885A5;
+    --têtechathover : #061339;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merienda', cursive;
+}
+
+/* NAVABAR */
+
+.navbar {
+    height: 60px;
+    background-color: var(--navbar);
+}
+
+.navbar h1 {
+    color: var(--titreh1);
+    font-size: 2em; 
+}
+
+/* style pour transformer les indicateurs du carousel en point  */
+.carousel .carousel-indicators li {
+    width: 10px;
+   height: 10px;
+   border-radius: 100%;
+ }
