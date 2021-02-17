@@ -1,0 +1,16 @@
+/* feuille de style pour index-correction.html */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merienda', cursive;
+}
+
+header a {
+    font-family: 'Merienda', cursive;
+}
+
+/* style pour transformer les indicateurs du carousel en point  */
+.carousel .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+ }
