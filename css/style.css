@@ -106,13 +106,9 @@ label {
         display: flex;
         flex-direction: column-reverse;
     }
-    .carousel-caption {
-        display: block;
-    }
 }
 
 @media screen and (min-width: 481px) and (max-width: 991px){
 
 }
 
-/* vil */
